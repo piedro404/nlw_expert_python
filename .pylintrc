@@ -4,7 +4,8 @@ disable=
       C0115, # missing-class-docstring
       C0116, # missing-function-docstring
       W0763, # Catching too general exception Exception
-      
+      R0903, # too-few-public-methods
+      C0303, # trailing-whitespace
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
