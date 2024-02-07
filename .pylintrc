@@ -6,7 +6,8 @@ disable=
       W0763, # Catching too general exception Exception
       R0903, # too-few-public-methods
       C0303, # trailing-whitespace
-
+      W0012, # unknown-option-value
+      
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
 # only in one or another interpreter, leading to false positives when analysed.
