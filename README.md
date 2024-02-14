@@ -6,6 +6,46 @@ Este repositório foi desenvolvido durante a trilha Python do evento NLW Expert 
 - Python: Linguagem de programação principal.
 - Barcode: Utilizamos bibliotecas específicas para a geração de códigos de barras.
 - Outras Bibliotecas: O resto das bibliotecas pode ser encontradas no requirements.txt
+
+# Documentação 📖
+- /create_tag [POST]: Gera um Barcode apartir da biblioteca
+  
+    ```bash
+    {
+      "product_code": "123-456-789"
+    }
+   ```
+    
+  - Respostas:
+    - 200 OK
+    ```bash
+    {
+      "data": {
+        "count": 1,
+        "path": "123-456-789.png",
+        "type": "Tag Image"
+      }
+    }
+    ```
+
+    - 422 UNPROCESSABLE ENTITY
+    ```bash
+    {
+    "errors": [
+    {
+      "detail": {
+        "produc_code": [
+          "unknown field"
+        ],
+        "product_code": [
+          "required field"
+        ]
+      },
+      "title": "UnprocessableEntity"
+        }
+      ]
+    }
+    ```
   
 # Como Executar o Projeto 🛠️
 1. Clone este repositório:
