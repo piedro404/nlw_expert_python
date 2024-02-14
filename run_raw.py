@@ -1,3 +1,6 @@
+# Projeto em um unico arquivo para explificação
+# pois o foco do evento foi mais voltada a arquitetura do projeto em si
+
 from flask import Flask, request, jsonify
 from barcode import Code128
 from barcode.writer import ImageWriter

@@ -1,3 +1,5 @@
+# Neste arquivo, ajuda a enteder a parte de validação de entrada e saida das requisições da API
+
 from cerberus import Validator
 
 body = {
