@@ -66,4 +66,7 @@ Este repositório foi desenvolvido durante a trilha Python do evento NLW Expert 
    python run.py
    ```
    
-5. Acesse a API em [http://127.0.0.1:3000](http://127.0.0.1:3000).
+4. Acesse a API em [http://127.0.0.1:3000](http://127.0.0.1:3000).
+
+# Sobre
+Obrigado a todos, desejo ótimos estudos, caso queira, entre em contato em pedro.henrique.martins404@gmail.com
